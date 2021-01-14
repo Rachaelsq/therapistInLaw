@@ -8,9 +8,9 @@
 
 }
 
-body {
+/* body {
     min-height 100vh;
-}
+} */
 
 body, html {
 background-color:#DCBBB2;
@@ -50,10 +50,11 @@ margin-right: 80px;
 
 #mainNavbar .nav-link {
     color: white;
+    margin-bottom: 50px;
 }
 
 #mainNavbar .nav-link:hover {
-    color: #00332E;
+    /* color: #00332E; */
 }
 
 #mainNavbar {
@@ -69,3 +70,18 @@ margin-right: 80px;
 
 /* end navbar */
 
+#firstRow {
+    margin-top: 10rem;
+}
+
+/* end navbar */
+
+#carouselContainer{
+margin-bottom: 50px;
+}
+
+.d-block {
+    margin-bottom: 40px;
+    border-radius: 10px;;
+
+}
