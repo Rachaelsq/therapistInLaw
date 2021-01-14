@@ -53,6 +53,13 @@ margin-right: 80px;
     margin-bottom: 50px;
 }
 
+#mainNavbar:onscroll {
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+
 #mainNavbar .nav-link:hover {
     /* color: #00332E; */
 }
