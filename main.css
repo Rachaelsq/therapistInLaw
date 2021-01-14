@@ -4,7 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Castoro', serif;
+
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 body, html {
-background-color: white;
+background-color:#DCBBB2;
 }
 
 ol, ul {
@@ -28,9 +29,43 @@ q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
 /* end css reset \\\\\\\\\\\\\\ */
+
+/* begin navbar */
+
+#mainNavbar .navbar-brand {
+/* color: #00332E; */
+/* color: #D37F59; */
+font-size: 2.5rem;
+letter-spacing: 7px;
+margin-left: 50px;
+margin-right: 80px;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #00332E;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+/* end navbar */
+
