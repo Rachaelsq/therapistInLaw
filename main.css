@@ -83,7 +83,8 @@ margin-bottom: 50px;
 .d-block {
     margin-bottom: 40px;
     margin-top: 10px;
-    border-radius: 7px;;
+    border-radius: 7px;
+  
 
 }
 
@@ -94,8 +95,9 @@ margin-bottom: 50px;
     text-align: center;
 }
 
-.row   {
-
+#rowImg   {
+display: flex;
+width: 100%;
 }
 
 img {
@@ -105,6 +107,32 @@ img {
 
 <!--
 ================= 
-SECOND ROW (bootstrap carousel)
+MEDIA SCREEN
 =================
 -->
+
+@media only screen and (min-width: 1200px) {
+
+    img {
+        width:10px;
+    }
+
+
+
+}
+
+//
+
+@media (max-width: 800px) {
+
+    
+
+
+
+}
+
+//
+
+@media (max-width: 1200px) {
+
+}
