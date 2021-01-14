@@ -82,6 +82,29 @@ margin-bottom: 50px;
 
 .d-block {
     margin-bottom: 40px;
-    border-radius: 10px;;
+    margin-top: 10px;
+    border-radius: 7px;;
 
 }
+
+#columnText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row   {
+
+}
+
+img {
+    filter: drop-shadow(0 0 0.25rem rgb(175, 175, 175));
+
+}
+
+<!--
+================= 
+SECOND ROW (bootstrap carousel)
+=================
+-->
